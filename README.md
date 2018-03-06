@@ -91,4 +91,8 @@ Gemfile tells rails what gems the app needs // to have all gems and dependency y
  @import 'bootstrap';
  save file
 
+Create home page html in home.html.erb
+contents of the home.html.erb are rendered to the yield tag
+home.html.erb only contains code that is within body tag
+update git from this point
 
