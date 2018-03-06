@@ -115,18 +115,21 @@ add Stripe GemFile
 $bundle install
 this installs all gems in the gem file,
 
-copy stripe view to home.ntml.erb from https://stripe.com/docs/checkout/rails
+copy stripe view to home.html.erb from https://stripe.com/docs/checkout/rails
 
 copy route- resources :charges
 
 copy test publish key from strpe api keys 
-paste into data key = from copied vuew code inhime.html.erb
+paste into data key = from copied view code in home.html.erb// bad practice never hard code keys use <%= Rails.configuration.stripe[:publishable_key] %> instead
 
 add charges_controller code
 add sekret key
 
 config/initializers save file strip.rb 
 paste in congig code
+initializers set the API keys 
+only run when app is started
+therefore restart server
 
  Figaro to securely configure App
  gem 'figaro

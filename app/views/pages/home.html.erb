@@ -32,7 +32,7 @@
               </article>
             
               <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                      data-key="pk_test_VTZMDpMu8X6UC2562z4iG1I8"
+                      data-key="<%= Rails.configuration.stripe[:publishable_key] %>"
                       data-description="A month's subscription"
                       data-amount="500"
                       data-locale="auto"></script>
