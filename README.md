@@ -115,3 +115,12 @@ add Stripe GemFile
 $bundle install
 this installs all gems in the gem file,
 
+copy stripe view to home.ntml.erb from https://stripe.com/docs/checkout/rails
+
+copy route- resources :charges
+
+copy test publish key from strpe api keys 
+paste into data key = from copied vuew code inhime.html.erb
+
+add charges_controller code
+add sekret key
