@@ -96,3 +96,22 @@ contents of the home.html.erb are rendered to the yield tag
 home.html.erb only contains code that is within body tag
 update git from this point
 
+add javscript
+-application.js
+line 12 //= require bootstrap
+save file
+
+push to github
+
+$git push origin master
+
+push to heroku 
+$git push heroku master 
+
+
+add Stripe GemFile
+-gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+
+$bundle install
+this installs all gems in the gem file,
+
