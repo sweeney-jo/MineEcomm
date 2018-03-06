@@ -18,6 +18,9 @@ gem 'sqlite3', group: [:development, :test]
 # stripe for takng payments
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 
+# Figaro to securely configure App
+gem 'figaro'
+
 # postgres for production database################
 gem 'pg', group: :production
 

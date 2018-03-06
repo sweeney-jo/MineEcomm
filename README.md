@@ -124,3 +124,9 @@ paste into data key = from copied vuew code inhime.html.erb
 
 add charges_controller code
 add sekret key
+
+config/initializers save file strip.rb 
+paste in congig code
+
+ Figaro to securely configure App
+ gem 'figaro
